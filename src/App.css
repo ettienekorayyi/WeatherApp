@@ -1,0 +1,76 @@
+body {
+   margin: 0;
+   background-color: black;
+}
+h1,h2 { margin: 0; padding: 2px; }
+
+.App { margin: 0; font-family: Arial, Helvetica, sans-serif; }
+
+/*
+@font-face { 
+  font-family: "ProximaNova";
+  src: url("../public/fonts/ProximaNovaW01-Regular.woff");
+}/*
+*/
+.container {
+  width: 80%;
+  min-height: 634px;
+  margin: 0 auto;
+  
+}
+
+.main {
+  background: url(https://images5.alphacoders.com/446/446818.jpg);
+  min-height: 634px;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+/*
+@media (max-width: 320px) {
+  .panel {
+    width: 60% !important;
+    margin: 0 auto;
+    float: none !important;
+  }
+}
+
+@media (min-width: 320px) {
+  .panel {
+    width: 60% !important;
+    margin: 0 auto;
+    float: none !important;
+  }
+} 
+*/
+.weather-details {
+  height: 150px;
+  width: 80%;
+  color: #fff;
+  
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.60);
+  position: absolute;
+  top: 485px;
+}
+
+.panel {
+  width: 11%;
+  padding-left: 10px;
+  float: left;
+}
+
+.data-block {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.data-block > .current-temperature {
+  margin: 0;
+  padding: 10px;
+}
